@@ -21,3 +21,17 @@ D:\Patches\TarasolAPI.dll,APIBin,API core functionality
 D:\Patches\TarasolObject.dll,"SiteBin,APIBin",Object model shared between site and API
 D:\Patches\Tarasol.dll,APIBin,Main application library
 D:\Patches\TarasolHelper.dll,"SiteBin,APIBin",Helper functions for both components
+
+### Issue
+
+- If your client and server are not in the same domain, you need to add the remote server to the TrustedHosts list.
+
+> Run this on your local machine:
+
+```powershell
+Set-Item -Path WSMan:\localhost\Client\TrustedHosts -Value "192.168.83.1" -Force
+```
+
+```powershell
+Get-Item WSMan:\localhost\Client\TrustedHosts
+```
