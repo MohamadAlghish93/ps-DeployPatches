@@ -1,0 +1,5 @@
+TypeName,ServerPath,Description
+WebJS,C:\inetpub\wwwroot\TarasolSite\Correspondence\javascripts\,JavaScript files for web interface
+ViewerJS,C:\inetpub\wwwroot\TarasolSite\Correspondence\H5Viewer\js\,JavaScript files for viewer component
+APIBin,C:\inetpub\wwwroot\TarasolAPI4\bin\,DLL files for API
+SiteBin,C:\inetpub\wwwroot\TarasolSite\bin\,DLL files for web site

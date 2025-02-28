@@ -1,0 +1,7 @@
+SourcePath,Types,Description
+D:\Patches\correspondence.js,WebJS,Main correspondence script
+D:\Patches\viewer.js,ViewerJS,Viewer component script
+D:\Patches\TarasolAPI.dll,APIBin,API core functionality
+D:\Patches\TarasolObject.dll,"SiteBin,APIBin",Object model shared between site and API
+D:\Patches\Tarasol.dll,APIBin,Main application library
+D:\Patches\TarasolHelper.dll,"SiteBin,APIBin",Helper functions for both components

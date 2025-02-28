@@ -1,0 +1,4 @@
+IP,Name,Environment
+10.30.42.96,Server1,Production
+10.30.42.97,Server2,Production
+10.30.42.98,Server3,QA
